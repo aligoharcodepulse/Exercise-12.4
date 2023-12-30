@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 12.4</title>
+    <style>
+        div{
+            text-align: left;
+            border: 2px solid black;
+            margin-left: 450px;
+            width: 600px;
+        }
+        div img{
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Travel Reservation Form</h1>
+        <h3> * denotes mandatory</h3>
+        <label for="Name">Full Name*:</label><br>
+        <input type="text" name="name" placeholder="FirstName LastName"><br>
+        <label for="email">Email address*:</label><br>
+        <input type="text" placeholder="EMAIL_ADDRESS"><br>
+        <label for="package">Select Tour Package*:</label><br>
+        <select name="pack">
+            <option value="Goa">Goa</option>
+            <option value="Foa">Foa</option>
+            <option value="Coa">Coa</option>
+            <option value="Aoa">Aoa</option>
+        </select><br>
+        <label for="date">Arrival Date*:</label><br>
+        <input type="date" placeholder="m/d/y"><br>
+        <label for="persons">Number of persons*:</label><br>
+        <input type="text" placeholder="UNKNOWN_TYPE"><br>
+        <label>What would you want to avail?*</label><br>
+        <input type="checkbox">Boarding <br>
+        <input type="checkbox">Fooding <br>
+        <input type="checkbox">Sight seeing <br>
+        <label for="code">Discount coupon code:</label><br>
+        <input type="text" placeholder="UNKNOWN_TYPE"><br>
+        <label>Terms and conditions*</label><br>
+        <input type="radio" name="but">I agree <input type="radio" name="but">I disagree<br>
+        <button>Complete Reservation</button><br><br>
+        <img src="image/pic.jpg">
+    </div>
+</body>
+</html>
